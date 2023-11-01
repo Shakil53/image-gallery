@@ -1,0 +1,39 @@
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    max-width: 800px;
+
+    margin: 0 auto;
+}
+
+.image {
+    border: 1px solid #ccc;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #e0e0e0;
+}
+
+
+.featured {
+    border: 2px solid #ff0000;
+}
+
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
